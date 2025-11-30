@@ -41,3 +41,10 @@ Dataset description:
 # C. Target
     Variable (attack_detected)                     ---Binary classification: 1 means an attack was detected, 0 means normal activity. 
                                                   ---The dataset isuseful for supervised machine learning, where a model learns from labeled attack patterns
+
+
+#METHODS 
+  1.Handle outliers with iterative IQR filtering, especially on session_duration and other numeric features to reduce extreme values.
+  2.Address skewness using transformations and/or distribution-based methods to make numeric features more suitable for modeling.
+  3.Encode categorical variables using label encoding or dummy encoding depending on the experiment setup. 
+  4.Train and evaluate a supervised ML classifier (e.g., RandomForest, etc.) to predict attack_detected, targeting high accuracy and robust performance.
