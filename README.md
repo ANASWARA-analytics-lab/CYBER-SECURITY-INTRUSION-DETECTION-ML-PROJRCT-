@@ -61,7 +61,7 @@ Dataset description:
 
 ## AUTHOR
 
-ANASWARA P P 
-DATA ANALYST
-anaswaraa066@gmail.com
-www.linkedin.com/in/anaswara-p-p-7ab868280
+- ANASWARA P P 
+- DATA ANALYST
+- anaswaraa066@gmail.com
+- www.linkedin.com/in/anaswara-p-p-7ab868280
