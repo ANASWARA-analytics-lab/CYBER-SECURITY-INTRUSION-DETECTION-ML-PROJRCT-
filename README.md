@@ -48,3 +48,20 @@ Dataset description:
   - Address skewness using transformations and/or distribution-based methods to make numeric features more suitable for modeling.
   - Encode categorical variables using label encoding or dummy encoding depending on the experiment setup.
   - Train and evaluate a supervised ML classifier (e.g., RandomForest, etc.) to predict attack_detected, targeting high accuracy and robust performance.
+
+# SREAMLIT APP
+  - Load the trained model, encoders, and required metadata from saved .pkl/.j son files.
+  - Provide a user interface to input session parameters (packet size, protocol, encryption, reputation score, logins, browser, unusual time, etc.).
+  - On button click, preprocess inputs exactly like the training pipeline and display:
+       - Predicted class (Attack / No Attack).
+       - Attack probability score.
+       - Simple status message (warning or success).
+  - Include basic customization such as header image and text color styling using streamlit and PIL library.
+
+
+## AUTHOR
+
+** ANASWARA P P **
+DATA ANALYST
+anaswaraa066@gmail.com
+www.linkedin.com/in/anaswara-p-p-7ab868280
