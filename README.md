@@ -22,28 +22,22 @@ A. Network-Based Features These features describe network-level information such
                                                   ---None: Indicates unencrypted communication, which can be risky. 
                                                   ---Attackers might use no encryption to avoid detection or weak encryption to exploit vulnerabilities. 
 
-B. User Behavior-Based Features These features track user activities, such as login attempts and session duration. 
-   
-   4.login_attempts (Number of Logins)            ---High values might indicate brute-force attacks (repeated login attempts). 
+# B. User Behavior-Based Features These features track user activities, such as login attempts and session duration. 
+    4.login_attempts (Number of Logins)            ---High values might indicate brute-force attacks (repeated login attempts). 
                                                   ---Typical users have 1–3 login attempts, while an attack may have hundreds or thousands. 
-  
-   5.session_duration (Session Length in Seconds) ---A very long session might indicate unauthorized access or persistence by an attacker. 
-                                                  ---Attackers may try to stay connected to maintain access. 
-   
-   6.failed_logins (Failed Login Attempts) 
+    5.session_duration (Session Length in Seconds) ---A very long session might indicate unauthorized access or persistence by an attacker. 
+                                                  ---Attackers may try to stay connected to maintain access
+    6.failed_logins (Failed Login Attempts) 
                                                   ---High failed login counts indicate credential stuffing or dictionary attacks. 
                                                   ---Many failed attempts followed by a successful login could suggest an account was compromised. 
-   
-   7.unusual_time_access (Login Time Anomaly)     ---A binary flag (0 or 1) indicating whether access happened at an unusual time. 
+    7.unusual_time_access (Login Time Anomaly)     ---A binary flag (0 or 1) indicating whether access happened at an unusual time. 
                                                   ---Attackers often operate outside normal business hours to evade detection.
-  
-   8.ip_reputation_score (Trustworthiness of IP Address) 
+    8.ip_reputation_score (Trustworthiness of IP Address) 
                                                   ---A score from 0 to 1, where higher values indicate suspicious activity. 
                                                   ---IP addresses associated with botnets, spam, or previous attacks tend to have higher scores. 
-   
-   9.browser_type (User’s Browser)                ---Common browsers: Chrome, Firefox, Edge, Safari. 
+    9.browser_type (User’s Browser)                ---Common browsers: Chrome, Firefox, Edge, Safari. 
                                                   ---Unknown: Could be an indicator of automated scripts or bots. 
 
-C. Target
-   Variable (attack_detected)                     ---Binary classification: 1 means an attack was detected, 0 means normal activity. 
+# C. Target
+    Variable (attack_detected)                     ---Binary classification: 1 means an attack was detected, 0 means normal activity. 
                                                   ---The dataset isuseful for supervised machine learning, where a model learns from labeled attack patterns
