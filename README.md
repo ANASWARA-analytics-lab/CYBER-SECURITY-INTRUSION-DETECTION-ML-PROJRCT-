@@ -6,7 +6,7 @@ behavior.
 
 Dataset description: 
 
-A. Network-Based Features These features describe network-level information such as packet size,protocol type, and encryption methods. 
+# A. Network-Based Features These features describe network-level information such as packet size,protocol type, and encryption methods. 
      
      1.network_packet_size (Packet Size in Bytes) ---Represents the size of network packets,ranging between 64 to 1500 bytes. 
                                                   ---Packets on the lower end (~64 bytes) may indicate control messages, while larger packet (~1500 bytes) often carry bulk data. 
