@@ -1,8 +1,5 @@
 # CYBER-SECURITY-INTRUSION-DETECTION-ML-PROJRCT-
-This project builds and deploys a machine learning–based intrusion detection system using a synthetic cybersecurity session dataset .
-
-This Cybersecurity Intrusion Detection Dataset is designed for detecting cyber intrusions based on network traffic and user
-behavior. 
+This project builds and deploys a machine learning–based cyber security intrusion detection system using a synthetic cybersecurity session dataset .This Cybersecurity Intrusion Detection Dataset is designed for detecting cyber intrusions based on network traffic and user behavior. 
 
 Dataset description: 
 
